@@ -1,4 +1,13 @@
 # coding: utf-8
+#
+# 定时访问12306网站上某天某条线路上的车次信息
+# 需要手动停止（一般系统是 ctrl+c 中断）
+#
+# 欢迎关注
+# 微信公众号：Crossin的编程教室
+# 微信号：crossincode
+# 论坛：bbs.crossincode.com
+
 import urllib2
 import ssl
 import json
