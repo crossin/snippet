@@ -1,0 +1,53 @@
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ECharts</title>
+    <!-- 引入 echarts.js -->
+    <script src="echarts.js"></script>
+</head>
+<body>
+    <div id="showhere" style="width:800px; height:600px;"></div> 
+    <script> 
+    var myChart = echarts.init(document.getElementById('showhere'));
+
+var option = {
+    title: {
+        text: '十九大工作报告',
+    },
+    tooltip: {
+        trigger: 'axis',
+        axisPointer: {
+            type: 'shadow'
+        }
+    },
+    legend: {
+        data: ['报告词频']
+    },
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    xAxis: {
+        type: 'value',
+        boundaryGap: [0, 0.01]
+    },
+    yAxis: {
+        type: 'category',
+        data: ['民主', '更加', '创新', '安全', '推动', '现代化', '我国', '完善', '伟大', '经济', '必须', '时代', '我们', '文化', '体系', '加强', '新', '特色', '政治', '社会', '推进', '制度', '实现', '全面', '国家', '党', '坚持', '社会主义', '建设', '人民', '中国', '发展']
+    },
+    series: [
+        {
+            name: '报告词频',
+            type: 'bar',
+            data: [44, 44, 44, 46, 47, 47, 50, 51, 58, 59, 61, 63, 64, 66, 68, 71, 77, 79, 80, 80, 81, 83, 83, 88, 90, 103, 130, 146, 148, 157, 168, 212]
+        }
+    ]
+};
+
+myChart.setOption(option);
+</script>
+</body>
+</html>
