@@ -77,7 +77,7 @@ class ViSort(Visual):
         for patch, h, c in zip(self.bar, data.keys(), 
                                data.values()):
             b = r'#%02x%02x%02x' % tuple([int(i * 255) for i in patch.get_fc()[:3]])
-            if b.lower() != c.lower():
+            if b.lower() != c.lower() and c.lower() != COLOR_MAPPING['OUT1']:
                 if h < len(AUDIO_MAPPING):
                     f = AUDIO_MAPPING[h]
                 else:

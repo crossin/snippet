@@ -35,7 +35,7 @@ class Algorithm(object):
 
     def _random_generate(self, num):
 
-        lst = list(range(1,21))
+        lst = list(range(1,41))
         random.shuffle(lst)
         return lst
 
