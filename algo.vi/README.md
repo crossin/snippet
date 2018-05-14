@@ -4,13 +4,14 @@
 
 ------
 
-依托 [matplotlib](https://matplotlib.org/) 实现的基本排序算法的动态可视化。
+依托 [matplotlib](https://matplotlib.org/) 实现的基本排序算法的动态可视化，并通过 [pyaudio](https://github.com/jleb/pyaudio) 增加音效。
 
 ### 安装
 
 在使用之前请先检查本地是否存在以下库：
 
 - matplotlib
+- pyaudio
 - fire
 
 requirements.txt 中包含了上述的库
