@@ -6,3 +6,6 @@
 
 具体可参考 http://pyecharts.org/#/zh-cn/prepare
 
+
+欢迎关注微信公众号 Crossin的编程教室
+http://crossincode.com
