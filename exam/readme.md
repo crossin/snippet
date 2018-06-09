@@ -1,4 +1,5 @@
 需要安装库：numpy、pyechats、ipython
+地图部分还需额外安装 echarts-countries-pypkg
 
 建议通过 jupyter 或 ipython notebook 执行
 
