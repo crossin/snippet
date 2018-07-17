@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>换脸</title>
+</head>
+<body>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <fieldset>
+        <legend>上传原图</legend>
+        <input type="file" name="photo" />
+        <select name="model">
+            <option value="1">奇迹</option>
+            <option value="2">压岁钱</option>
+            <option value="3">范蠡</option>
+            <option value="4">李白</option>
+            <option value="5">孙尚香</option>
+            <option value="6">花无缺</option>
+            <option value="7">西施</option>
+            <option value="8">杨玉环</option>
+            <option value="9">白浅</option>
+            <option value="10">凤九</option>
+            <option value="11">夜华</option>
+            <option value="12">年年有余</option>
+            <option value="13">新年萌萌哒</option>
+            <option value="14">王者荣耀荆轲</option>
+            <option value="15">王者荣耀李白</option>
+            <option value="16">王者荣耀哪吒</option>
+            <option value="17">王者荣耀王昭君</option>
+            <option value="18">王者荣耀甄姬</option>
+            <option value="19">王者荣耀诸葛亮</option>
+            <option value="20">赵灵儿</option>
+            <option value="21">李逍遥</option>
+            <option value="22">爆炸头</option>
+            <option value="23">村姑</option>
+            <option value="24">光头</option>
+            <option value="25">呵呵哒</option>
+            <option value="26">肌肉</option>
+            <option value="27">肉山</option>
+            <option value="28">机智</option>
+            <option value="29">1927年军装（男）</option>
+            <option value="30">1927年军装（女）</option>
+            <option value="31">1929年军装（男）</option>
+            <option value="32">1929年军装（女）</option>
+            <option value="33">1937年军装（男）</option>
+            <option value="34">1937年军装（女）</option>
+            <option value="35">1948年军装（男）</option>
+            <option value="36">1948年军装（女）</option>
+            <option value="37">1950年军装（男）</option>
+            <option value="38">1950年军装（女）</option>
+            <option value="39">1955年军装（男）</option>
+            <option value="40">1955年军装（女）</option>
+            <option value="41">1965年军装（男)</option>
+            <option value="42">1965年军装（女）</option>
+            <option value="43">1985年军装（男）</option>
+            <option value="44">1985年军装（女）</option>
+            <option value="45">1987年军装（男）</option>
+            <option value="46">1987年军装（女）</option>
+            <option value="47">1999年军装（男）</option>
+            <option value="48">1999年军装（女）</option>
+            <option value="49">2007年军装（男）</option>
+            <option value="50">2007年军装（女）</option>
+        </select>
+        <input type="submit" value="上传"/>
+    </fieldset>
+</form>
+{% if image %}
+<img src="{{image}}" style="width:80%;max-width: 400px">
+{% endif %}
+</body>
+</html>
