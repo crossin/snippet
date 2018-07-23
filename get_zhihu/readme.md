@@ -10,7 +10,7 @@ https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
 
 https://wkhtmltopdf.org/downloads.html
 
-输出示例：Crossin的编程教室-知乎专栏pdf版：https://pan.baidu.com/s/17Q7xvtsWJfF0GGBJXF8hSQ
+输出示例：Crossin的编程教室-知乎专栏pdf版：https://pan.baidu.com/s/18rds2VK-TzZ5pLs_MHE6LQ
 
 
 
