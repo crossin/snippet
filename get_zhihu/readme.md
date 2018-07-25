@@ -2,7 +2,7 @@
 
 
 
-抓取时需输入专栏url的路径，如我的专栏 https://zhuanlan.zhihu.com/crossin，需输入 **crossin**
+抓取时需输入专栏url的路径，如我的专栏 https://zhuanlan.zhihu.com/crossin ，需输入 **crossin**
 
 如需程序自动导出pdf，除通过pip安装pdfkit外，还需要手动安装 **wkhtmltopdf**，具体参见：
 
