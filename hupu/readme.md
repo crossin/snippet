@@ -11,6 +11,8 @@
 
 使用腾讯AI需要注册并获取 APPKEY 和 APPID
 
+在线代码展示：https://github.com/crossin/snippet/blob/master/hupu/hupu.ipynb
+
 
 
 更多实用有趣的例程
