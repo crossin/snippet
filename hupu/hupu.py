@@ -258,6 +258,7 @@ for r in rs:
 # In[10]:
 
 
+import pyecharts as ec
 list_hours = [(start + datetime.timedelta(hours=x)).strftime('%m.%d %H') for x in range(0, 24 * 9)]
 line = ec.Line('时间统计', width=1000)
 line.add("回帖", list_hours, list_reply, xaxis_interval=3, xaxis_rotate=-90)
@@ -413,12 +414,12 @@ for i in ['又', '一', '想', '会', '完', '这是', '怎么', '你', '?', '\n
 ws
 
 
-# In[44]:
+# In[46]:
 
 
 from wordcloud import WordCloud
 wc = WordCloud(
-    font_path='../STHeitik-Light.ttc',
+    font_path='../zhaozi.ttf',
     background_color='white',
     width=1600,
     height=900,
