@@ -1,7 +1,7 @@
 需要安装库：
 
 - **peewee**
-- **request**
+- **requests**
 - **BeautifulSoup**
 - **pyecharts**
 - **jieba**
