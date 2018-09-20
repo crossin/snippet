@@ -41,18 +41,21 @@ def get_html(aid, title, index):
         return
     else:
         print('saving', title)
-    url = 'https://zhuanlan.zhihu.com/p/' + aid
-    html = requests.get(url, headers=headers).text
-    soup = BeautifulSoup(html, 'lxml')
-    content = soup.find(class_='Post-RichText').prettify()
-    content = content.replace('data-actual', '')
-    content = content.replace('h1>', 'h2>')
-    content = re.sub(r'<noscript>.*?</noscript>', '', content)
-    content = re.sub(r'src="data:image.*?"', '', content)
-    content = '<!DOCTYPE html><html><head><meta charset="utf-8"></head><body><h1>%s</h1>%s</body></html>' % (
-        title, content)
-    with open(file_name, 'w') as f:
-        f.write(content)
+    try:
+        url = 'https://zhuanlan.zhihu.com/p/' + aid
+        html = requests.get(url, headers=headers).text
+        soup = BeautifulSoup(html, 'lxml')
+        content = soup.find(class_='Post-RichText').prettify()
+        content = content.replace('data-actual', '')
+        content = content.replace('h1>', 'h2>')
+        content = re.sub(r'<noscript>.*?</noscript>', '', content)
+        content = re.sub(r'src="data:image.*?"', '', content)
+        content = '<!DOCTYPE html><html><head><meta charset="utf-8"></head><body><h1>%s</h1>%s</body></html>' % (
+            title, content)
+        with open(file_name, 'w') as f:
+            f.write(content)
+    except:
+        print('get %s failed', title)
     time.sleep(2)
 
 def get_details():
