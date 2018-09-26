@@ -2,6 +2,8 @@
 
 需要安装库：pyecharts
 
+参考阅读：[中国大学生太多了吗？](https://mp.weixin.qq.com/s/G8uwtToV5jUBDV1raF51EQ)
+
 
 
 更多实用有趣的例程
