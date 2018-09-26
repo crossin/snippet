@@ -4,6 +4,12 @@
 
 参考阅读：[中国大学生太多了吗？](https://mp.weixin.qq.com/s/G8uwtToV5jUBDV1raF51EQ)
 
+![毕业生年度变化表](/Users/crossin/Projects/Wechat/snippet/edu/毕业生年度变化表.png)
+
+![留学及归国人数年度变化表](/Users/crossin/Projects/Wechat/snippet/edu/留学及归国人数年度变化表.png)
+
+![适龄大学入学比例](/Users/crossin/Projects/Wechat/snippet/edu/适龄大学入学比例.png)
+
 
 
 更多实用有趣的例程
