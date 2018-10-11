@@ -56,6 +56,7 @@ for url in urls:
     for l in links:
         link = l.get('href')
         if link and link.startswith('http') and any(c.isdigit() for c in link if c) and link not in url_articles:
+            # any(c.isdigit() for c in link if c) 是筛选了标题中含有数字的网站
             url_articles.append(link)
             print(link)
         
