@@ -1,10 +1,14 @@
-## goose：文章内容提取
+## Python+OpenCV 图像风格迁移
 
 需要安装库：opencv （3.3 以上版本）
 
 由于模型文件太大，仅提供1个模型下载，其余下载地址在 download_style_transfer_models.sh 文件中给出，执行命令可自动下载：
 
 `sh download_style_transfer_models.sh`
+
+
+
+参考阅读：[Python+OpenCV 十几行代码模仿世界名画](https://mp.weixin.qq.com/s/DITIb4a-yZxH2XtpmXhxZg)
 
 
 
