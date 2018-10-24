@@ -12,6 +12,12 @@
 
 
 
+效果演示：
+
+![](output.gif)
+
+
+
 参考项目：
 
 https://github.com/jcjohnson/fast-neural-style
