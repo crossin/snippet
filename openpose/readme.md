@@ -10,6 +10,10 @@ windows 运行 `getModels.bat`
 
 
 
+参考文章：[用 Python 实现抖音尬舞机](https://mp.weixin.qq.com/s/_CrlqYB1dLbQinu3dyRNcA)
+
+
+
 效果演示：
 
 ![](out.jpg)
