@@ -29,7 +29,8 @@ while True:
             text += ascii_char[int(pixel / 256 * char_len)]
         text += '\n'
     # 清屏
-    os.system('clear')
+    os.system('cls')
+    # os.system('clear')  #Mac
     # 输出生成的字符方阵
     print(text)
     # 适当暂停一下
