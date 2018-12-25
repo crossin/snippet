@@ -60,7 +60,7 @@ class UI(object):
 
 
 def tree(ui, level=3):
-    a = range(0, (level + 1) * 4, 2)
+    a = list(range(0, (level + 1) * 4, 2))
     b = a[0:2]
     for i in range(2, len(a) - 2, 2):
         b.append(a[i])
