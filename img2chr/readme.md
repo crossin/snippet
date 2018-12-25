@@ -6,7 +6,7 @@
 
 ![dance](dance.gif)
 
-参考文章：
+参考文章：[超不清视频播放器](https://mp.weixin.qq.com/s/kXcPlO5sAqbM2g4G5hVqfg)https://mp.weixin.qq.com/s/kXcPlO5sAqbM2g4G5hVqfg
 
 
 
