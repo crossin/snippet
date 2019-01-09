@@ -60,7 +60,7 @@ plt.axis('off')
 plt.title('foreground')
 
 # 合成
-img = img * (1-mask)[:,:,np.newaxis] + img * mask[:,:,np.newaxis]
+img = im * (1-mask)[:,:,np.newaxis] + img * mask[:,:,np.newaxis]
 plt.subplot(2, 2, 4)
 plt.imshow(img)
 plt.axis('off')

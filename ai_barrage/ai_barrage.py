@@ -116,7 +116,7 @@ mask_history = []
 barrages = barrages_all[:]
 barrages_active = []
 # 创建字体（可在项目中获取，或自行提供）
-font = ImageFont.truetype('zhaozi.ttf', 18)
+font = ImageFont.truetype('../zhaozi.ttf', 18)
 
 # 视频循环
 while cv2.waitKey(1) < 0:
