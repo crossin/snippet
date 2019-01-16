@@ -4,7 +4,7 @@ Python-Robocode 项目：https://github.com/turkishviking/Python-Robocode/wiki/B
 
 需要安装库：PyQt4（py2版本）
 
-参考阅读：
+参考阅读：[代码吃鸡，来挑战吗？](https://mp.weixin.qq.com/s/TZt7WVwCPTUVKfO46pe5TA)
 
 
 
