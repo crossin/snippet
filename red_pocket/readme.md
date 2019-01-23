@@ -2,7 +2,7 @@
 
 需要安装库：itchat
 
-参考阅读：
+参考阅读：[用Python写个了红包提醒，再不怕错过一个亿了](https://mp.weixin.qq.com/s/60SYy9GLmrhO4KEtPPGLZg)
 
 效果演示：
 
