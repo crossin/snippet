@@ -4,7 +4,7 @@
 
 原项目地址：https://github.com/mumuy/relationship
 
-参考阅读：
+参考阅读：[python版亲戚关系计算器](https://mp.weixin.qq.com/s/Nlow0BiOpwaa8OvBoqwnqw)
 
 效果演示：
 
