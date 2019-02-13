@@ -4,7 +4,7 @@
 
 需安装库：**pygame**
 
-参考阅读：
+参考阅读：[用python模拟地球飞越木星](https://mp.weixin.qq.com/s/ft66xCIOiON98Y70gX7XMA)
 
 效果演示：
 
