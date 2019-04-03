@@ -1,25 +1,29 @@
-## Marvel API 示例
+## 北京全年天气状况分析
 
 需要安装库：
 
-* marvel
-* IPython
+* requests
+* bs4
+* pandas
+* matplotlib
+* seaborn
+* pyecharts
 
 建议使用 Jupyter 运行，否则图片无法自动显示
 
-
-
 参考文章：
 
-[这可能是我用过最“强大”的API](https://mp.weixin.qq.com/s/ILSbvRJ0hQqpXvBNPJR_Xg)
+数据可视化：
 
+![](1.png)
 
+![](4.png)
 
-运行效果：
+![](2.png)
 
-![检索英雄](captain.png)
+![](3.png)
 
-![检索英雄详情](captain2.png)
+![](5.png)
 
 更多实用有趣的例程
 
