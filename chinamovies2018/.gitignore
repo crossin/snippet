@@ -1,0 +1,13 @@
+*.pyc
+__pycache__
+venv
+db.sqlite3
+.DS_Store
+.idea
+.jpg
+.jpeg
+.gif
+*.xls
+*.xlsx
+*.sqlite3
+media/

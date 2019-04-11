@@ -11,7 +11,7 @@
 
 建议使用 Jupyter 运行，否则图片无法自动显示
 
-参考文章：
+参考文章：[北京全年天气状况分析](https://mp.weixin.qq.com/s/UbcGqbCLSqRagksT6a82hQ)
 
 数据可视化：
 
