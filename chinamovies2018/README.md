@@ -1,5 +1,7 @@
 ## 2018年国内上映电影票房评分分析
 
+参考文章：[我敢打赌，你猜不到去年电影国内票房最高的演员是谁](https://mp.weixin.qq.com/s/RXzmheEBtq_Mb8i_c5EwPg)
+
 #### 项目内容
 
 统计2018年在国内上映的所有电影，分别获取上映电影的票房、评分（豆瓣、猫眼、时光、imdb）、类型、上映日期、演员、导演等数据。利用所获数据绘图，对2018年国内上映电影进行定量分析
@@ -89,4 +91,4 @@
 
 欢迎关注“**Crossin的编程教室**”及同名 [知乎专栏](https://zhuanlan.zhihu.com/crossin)
 
-![crossincode](/Users/crossin/Projects/Wechat/snippet/crossin-logo.png)
+![crossincode](../crossin-logo.png)
