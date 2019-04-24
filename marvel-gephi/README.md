@@ -2,11 +2,11 @@
 ## 项目内容  
 调用 marvel API 获取 marvel 英雄 id，及与英雄相关的故事数，并储存在 mongodb 数据库中；生成 gephi 所需文件（这里以 csv 文件为例）；使用 gephi 生成英雄关系图谱。
 
-
+参考文章：[谁才是漫威的绝对C位](https://mp.weixin.qq.com/s/TjmtGh89nMrRBirf6XRFCw)
 
 更多实用有趣的例程，欢迎关注“**Crossin的编程教室**”及同名 [知乎专栏](https://zhuanlan.zhihu.com/crossin)
 
-![crossincode](/Users/crossin/Projects/Wechat/snippet/crossin-logo.png)
+![crossincode](../crossin-logo.png)
 
 ## 项目思路
 1. 使用第三方库 marvel，获取 marvel 所有英雄，并根据与英雄相关故事数排序。<br>
