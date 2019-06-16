@@ -15,18 +15,18 @@
 
 #### 演示效果
 
-![James Harden.png](James Harden.png)
+![JamesHarden.png](JamesHarden.png)
 
-![Stephen Curry.png](Stephen Curry.png)
+![StephenCurry.png](StephenCurry.png)
 
-![DeMar DeRozan.png](DeMar DeRozan.png)
+![DeMarDeRozan.png](DeMarDeRozan.png)
 
-![Giannis Antetokounmpo.png](Giannis Antetokounmpo.png)
+![GiannisAntetokounmpo.png](GiannisAntetokounmpo.png)
 
-![Jeremy Lin.png](Jeremy Lin.png)
+![JeremyLin.png](JeremyLin.png)
 
-更多实用有趣的例程
+要是喜欢就关注下我的公众号呗，“**Crossin的编程教室**”，或者同名 [知乎专栏](https://zhuanlan.zhihu.com/crossin)
 
-欢迎关注公众号“**Crossin的编程教室**”及同名 [知乎专栏](https://zhuanlan.zhihu.com/crossin)
+里面还有很多有意思的程序，感谢各位！
 
 ![crossincode](../crossin-logo.png)
