@@ -1,3 +1,13 @@
+###########################
+#
+# 作者：清风小筑 crossin
+#
+# 更多有趣代码和教程，欢迎关注
+# 微信公众号：Crossin的编程教室
+#
+###########################
+
+
 import requests
 import urllib.request
 import matplotlib.pyplot as plt
