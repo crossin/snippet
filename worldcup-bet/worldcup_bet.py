@@ -136,7 +136,7 @@ def play(strategy):
 
 from matplotlib import pyplot as plt
 from pylab import mpl
-font = mpl.font_manager.FontProperties(fname='zhaozi.ttf', size=15)
+font = mpl.font_manager.FontProperties(fname='../zhaozi.ttf', size=15)
 
 print('热门:', end=' ')
 buyhot = play(hot)

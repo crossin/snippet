@@ -13,6 +13,10 @@
 2. 蓝色点为命中，红色点为未命中
 3. 建议通过 Jupyter 运行，效果会比较好。py文件运行有可能在某些系统出现错位
 
+#### 参考文章
+
+[NBA的球星们喜欢在哪个位置出手](https://mp.weixin.qq.com/s/pumsu5IVpb3P5BSycBC1mA)
+
 #### 演示效果
 
 ![JamesHarden.png](JamesHarden.png)
