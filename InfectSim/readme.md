@@ -2,7 +2,7 @@
 
 需安装库：**numpy、matplotlib、ipython**
 
-强烈建议使用 jupyter notebook 运行代码
+强烈建议使用 jupyter notebook 运行 ipynb 代码文件
 
 为方便大家理解和修改代码，故将变量和函数均以中文命名
 
