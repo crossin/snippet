@@ -1,3 +1,6 @@
+# 这里有浅显易懂的Python教程
+# 更多教程和代码案例，请关注公众号：Crossin的编程教程
+
 import requests
 import json
 from datetime import datetime
