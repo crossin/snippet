@@ -9,6 +9,8 @@
 
 用雷达图描绘漫威英雄战斗力
 
+参考阅读：[pyecharts绘制复联超级英雄战斗力](https://mp.weixin.qq.com/s/QfzYrbOpks9qmZizlcoYew)
+
 如有任何问题，请联系微信tyrant100
 
 原项目地址：

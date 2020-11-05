@@ -16,10 +16,10 @@
 
 说明：本案例从体育网站“直播吧”抓取了近万条关于梅西离队的网友评论，并做了简单的文本可视化分析。
 
+参考文章：[梅西离开巴萨？看看球迷们怎么说](https://mp.weixin.qq.com/s/FRhwwhBq2DKif0Zd9HOPkg)
+
 作者：Scofield
 来源：ImagineScofield
-
-
 
 此代码中的疑问可在公众号 **Crossin的编程教室** （crossincode）里讨论
 

@@ -11,6 +11,8 @@ matplotlib、numpy
 
 ![月饼效果图](p1.png)
 
+参考文章：[中秋节到了，送你一个Python做的Crossin牌“月饼”](https://mp.weixin.qq.com/s/mYeyzi8N80nGOzxIli2SGg)
+
 如有任何问题，欢迎联系本例作者，微信tyrant100
 
 ----
