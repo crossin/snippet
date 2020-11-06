@@ -3,6 +3,8 @@
 #### 介绍
 用python编程来解“智力题”
 
+参考阅读：[友尽妙招：用Python解“智力游戏”](https://mp.weixin.qq.com/s/5-AIVQ55g_1Ztv8EPYbkQA)
+
 1.
 
 ![1.jpg](1.jpg)
