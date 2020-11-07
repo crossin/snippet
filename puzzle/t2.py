@@ -71,7 +71,7 @@ for answer in itertools.permutations(nums, 9):
             break
     if valid:
         print(graph)
-        # break
+        break
 t2=time.time()
 print(count)
 print(t2-t1)
