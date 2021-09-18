@@ -63,7 +63,7 @@ from pylab import mpl
 
 plt.rcParams['figure.figsize'] = (16, 12)
 # 中文乱码问题（自行下载）
-font = mpl.font_manager.FontProperties(fname='../simhei.ttf', size=15)
+font = mpl.font_manager.FontProperties(fname='../zhaozi.ttf', size=15)
 
 for team in gold:
     plt.plot(gold[team], linewidth=4, label=team)
