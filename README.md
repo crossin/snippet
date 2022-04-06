@@ -8,7 +8,7 @@ B站：[Crossin的编程教室](https://space.bilibili.com/17095888)
 
 Github：[crossin](https://github.com/crossin)
 
-**零基础python教程**：[python666.cn](python666.cn)
+**零基础python教程**：[python666.cn](https://python666.cn)
 
 ![crossincode](crossin-logo.png)
 
