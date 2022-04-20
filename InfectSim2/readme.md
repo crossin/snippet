@@ -17,6 +17,9 @@
 
 B站视频：
 
+[病毒传播模拟实验-清零还是共存？](https://www.bilibili.com/video/BV1v34y1Y7x8/)
+
+
 [【实验模拟】不要给病毒反弹的机会！](https://www.bilibili.com/video/av93691362/)
 
 此代码中的疑问可在公众号 **Crossin的编程教室** （crossincode）里讨论
