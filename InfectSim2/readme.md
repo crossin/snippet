@@ -9,9 +9,15 @@
 效果演示：
 ![效果演示](output.png)
 
-相关文章：[【实验模拟】对疫情，我们可以放松警惕了吗？](https://mp.weixin.qq.com/s/-6whGvu4K2I5oVwfKwYiWw)
+相关文章：
 
-B站视频：[【实验模拟】不要给病毒反弹的机会！](https://www.bilibili.com/video/av93691362/)
+[病毒传播模拟实验2-清零还是共存？](https://mp.weixin.qq.com/s/NosNwunw3n1kc2oPDl3WRw)
+
+[【实验模拟】对疫情，我们可以放松警惕了吗？](https://mp.weixin.qq.com/s/-6whGvu4K2I5oVwfKwYiWw)
+
+B站视频：
+
+[【实验模拟】不要给病毒反弹的机会！](https://www.bilibili.com/video/av93691362/)
 
 此代码中的疑问可在公众号 **Crossin的编程教室** （crossincode）里讨论
 
