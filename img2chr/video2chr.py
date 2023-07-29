@@ -14,13 +14,13 @@ while True:
     if not hasFrame:
         break
     # 视频长宽
-    frameWidth = frame.shape[0]
-    frameHeight = frame.shape[1]
+    frameWidth = frame.shape[1]
+    frameHeight = frame.shape[0]
     # 转灰度图
     img_gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
     # 缩小图片并调整长宽比
     img_resize = cv.resize(img_gray, (int(frameWidth / 10), int(frameHeight / 10)))
-    
+
     text = ''
     # 遍历图片中的像素
     for row in img_resize:

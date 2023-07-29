@@ -1,10 +1,10 @@
-#!/usr/bin/env python
+
 # coding: utf-8
 
-# In[57]:
+# In[1]:
 
 
-import akshare as ak
+import tushare as ts
 import matplotlib.pyplot as plt
 
 def rebalance(asset, price):
@@ -21,14 +21,9 @@ allin_money = 10000
 allin_stock = 0
 days = 0
 interval = 180
-df = ak.fund_etf_hist_em(symbol="510300", period="daily", start_date="20150101", end_date="20230701", adjust="")
-df
-
-
-# In[58]:
-
-
-for price in df.收盘:
+df=ts.get_k_data('399300',start='2012-01-01',end='2016-01-01')
+# print(df)
+for price in df.close:
     days -= 1
     if days < 0:
         money, stock = rebalance(asset, price)
@@ -50,17 +45,17 @@ print(allin_money)
 print(allin_stock * price)
 
 
-# In[59]:
+# In[2]:
 
 
 # draw
-date = list(df.日期)
+date = list(df.date)
 
 fig, left_axis = plt.subplots()
 fig.set_size_inches(16, 10)
 right_axis = left_axis.twinx()
 
-p1 = left_axis.plot(date, df.收盘)
+p1 = left_axis.plot(date, df.close)
 p2 = right_axis.stackplot(date, hist_money, hist_stock, alpha=0.3)
 p3 = right_axis.plot(date, hist_allin_money)
 p4 = right_axis.plot(date, hist_allin_stock)
@@ -72,7 +67,7 @@ left_axis.set_xticklabels(xlabels, rotation=45)
 plt.show()
 
 
-# In[60]:
+# In[3]:
 
 
 # 按比例触发再平衡
@@ -92,9 +87,10 @@ allin_money = 10000
 allin_stock = 0
 days = 0
 interval = 360
-df = ak.fund_etf_hist_em(symbol="510300", period="daily", start_date="20150101", end_date="20230701", adjust="")
+df=ts.get_k_data('399300',start='2014-01-01',end='2016-01-01')
+# df=ts.get_k_data('601005',start='2007-10-01')
 # print(df)
-for price in df.收盘:
+for price in df.close:
     days -= 1
     stock_p = stock * price
     if (money == 0 or stock == 0) or (money / stock_p > 1.2 or stock_p / money > 1.2):
@@ -117,13 +113,13 @@ print(allin_money)
 print(allin_stock * price)
 
 # draw
-date = list(df.日期)
+date = list(df.date)
 
 fig, left_axis = plt.subplots()
 fig.set_size_inches(16, 10)
 right_axis = left_axis.twinx()
 
-p1 = left_axis.plot(date, df.收盘)
+p1 = left_axis.plot(date, df.close)
 p2 = right_axis.stackplot(date, hist_money, hist_stock, alpha=0.3)
 p3 = right_axis.plot(date, hist_allin_money)
 p4 = right_axis.plot(date, hist_allin_stock)
@@ -135,7 +131,7 @@ left_axis.set_xticklabels(xlabels, rotation=45)
 plt.show()
 
 
-# In[61]:
+# In[4]:
 
 
 # 与定投结合
@@ -156,10 +152,10 @@ allin_money = 10000
 allin_stock = 0
 days = 0
 interval = 30
-df = ak.fund_etf_hist_em(symbol="510300", period="daily", start_date="20150101", end_date="20230701", adjust="")
+df=ts.get_k_data('399300',start='2007-05-01')
 # print(df)
 
-for price in df.收盘:
+for price in df.close:
     days -= 1
     stock_p = stock * price
     if allin_stock == 0:
@@ -190,13 +186,13 @@ print(allin_stock * price)
 print(cost)
 
 # draw
-date = list(df.日期)
+date = list(df.date)
 
 fig, left_axis = plt.subplots()
 fig.set_size_inches(16, 10)
 right_axis = left_axis.twinx()
 
-p1 = left_axis.plot(date, df.收盘)
+p1 = left_axis.plot(date, df.close)
 p2 = right_axis.stackplot(date, hist_money, hist_stock, alpha=0.3)
 p3 = right_axis.plot(date, hist_allin_money)
 p4 = right_axis.plot(date, hist_allin_stock)
@@ -208,7 +204,7 @@ left_axis.set_xticklabels(xlabels, rotation=45)
 plt.show()
 
 
-# In[62]:
+# In[79]:
 
 
 import random
@@ -236,12 +232,12 @@ for i in range(1000):
     interval = 180
     date_s = datetime.date.today() - datetime.timedelta(days=random.randint(2000,5000))
     date_e = date_s + datetime.timedelta(days=random.randint(1000, 5000))
-    date_s = date_s.strftime('%Y%m%d')
-    date_e = date_e.strftime('%Y%m%d')
+    date_s = date_s.strftime('%Y-%m-%d')
+    date_e = date_e.strftime('%Y-%m-%d')
 #     print(date_s,date_e)
-    df = ak.fund_etf_hist_em(symbol="510300", period="daily", start_date=date_s, end_date=date_e, adjust="")
+    df = ts.get_k_data('399300',start=date_s, end=date_e)
     # print(df)
-    for price in df.收盘:
+    for price in df.close:
         days -= 1
         stock_p = stock * price
         if (money == 0 or stock == 0) or (money / stock_p > 1.2 or stock_p / money > 1.2):
@@ -259,8 +255,8 @@ for i in range(1000):
             allin_stock = 10000 / price
         hist_allin_stock.append(allin_stock * price)
 
-    days = len(df['日期'])
-    print(df['日期'].iloc[0], df['日期'].iloc[-1], days)
+    days = len(df['date'])
+    print(df['date'].iloc[0], df['date'].iloc[-1], days)
     print(int(asset), int(allin_money), int(allin_stock * price))
     r1 = calc_rate(asset, days)
     r2 = calc_rate(allin_money, days)
@@ -274,7 +270,7 @@ for i in range(1000):
 print(sum(rate1)/len(rate1), sum(rate2)/len(rate2), sum(rate3)/len(rate3))
 
 
-# In[63]:
+# In[92]:
 
 
 import numpy as np
@@ -291,10 +287,4 @@ fig = plt.gcf()
 fig.set_size_inches(16, 30)
 plt.yticks(np.arange(-15, 160, 5))
 plt.show()
-
-
-# In[ ]:
-
-
-
 
