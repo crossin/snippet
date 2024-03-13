@@ -8,8 +8,4 @@
 
 ![py3in1pic.jpg](py3in1pic.jpg)
 
-要是喜欢就关注下我的公众号呗，“**Crossin的编程教室**”，或者同名 [知乎专栏](https://zhuanlan.zhihu.com/crossin)
-
-里面还有很多有意思的程序，感谢各位！
-
-![crossincode](../crossin-logo.png)
+获取更多教程、案例、学习群，欢迎添加微信 crossin123 ，加入编程教室共同学习~
